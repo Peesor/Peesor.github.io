@@ -10,11 +10,21 @@
 
 <script type="text/javascript">
 
-var today = new Date();
+function ref()
+{
+    var today = new Date();
 
 var hour = today.getHours();
 var Minutes = today.getMinutes();
 var seconds = today.getSeconds();
+document.getElementById("time").innerHTML = hour+":"+Minutes+":"+seconds;
+
+setTimeout("ref()",1000);
+    
+
+}
+
+
 
 </script>
 
@@ -24,12 +34,7 @@ var seconds = today.getSeconds();
 
 
         <div id="time"></div>
-        <script type="text/javascript">
-
-           document.getElementById("time").innerHTML = hour+":"+Minutes+":"+seconds;
-
-            
-            </script>
+       
 
     </body>
 
