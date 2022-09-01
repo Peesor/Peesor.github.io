@@ -20,10 +20,14 @@ var seconds = today.getSeconds();
 document.getElementById("time").innerHTML = hour+":"+Minutes+":"+seconds;
 
 setTimeout("ref()",1000);
-    
 
 }
+function log()
+{
 
+location.href="zaloguj.php";
+
+}
 
 
 </script>
@@ -35,7 +39,7 @@ setTimeout("ref()",1000);
         <div id="menu">
 
         <div id="time" ></div>
-        <div class="option" >logowanie</div>
+        <div class="option" onclick="log()" >logowanie</div>
         <div class="option" >strona główna</div>
 
         <div id="clearboth"></div>
