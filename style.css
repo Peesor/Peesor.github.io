@@ -42,7 +42,8 @@ margin: 10px;
 .option:hover
 {
 
-	color:#9bbb42;
+color:#9bbb42;
+cursor: pointer;
 
 }
 
