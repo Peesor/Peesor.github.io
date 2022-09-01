@@ -6,21 +6,8 @@ font-family: 'Slabo 27px', serif;
 font-size:18px;
 color:#E0E0E0;
 margin: 0;
-    
+}
 
-}
-h3
-{
-	color:blue;
-	font-size:30px;
-	
-}
-h2
-{
-	color:red;
-	font-size:25px;
-	
-}
 #upper
 {
 width: 1000px;
@@ -29,6 +16,7 @@ margin-right: auto;
 
 
 }
+
 #menu
 {
 
@@ -38,3 +26,9 @@ color:azure;
 padding: 15px;
 }
 
+#log
+{
+	color:gray;
+
+
+}
