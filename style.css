@@ -26,9 +26,25 @@ color:azure;
 padding: 15px;
 }
 
-#log
+.option
 {
-	color:gray;
-
+color:gray;
+float: left;
+padding: 5px;
 
 }
+.option:hover
+{
+
+	color:#9bbb42;
+
+}
+#clearboth
+{
+
+clear: both;
+
+}
+
+
+
