@@ -25,12 +25,18 @@ margin-top: 0px;
 color:azure;
 padding: 15px;
 }
+#time
+{
+	float: left;
+	margin: 10px;
 
+}
 .option
 {
 color:gray;
 float: left;
 padding: 5px;
+margin: 10px;
 
 }
 .option:hover
@@ -39,6 +45,7 @@ padding: 5px;
 	color:#9bbb42;
 
 }
+
 #clearboth
 {
 
