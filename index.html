@@ -22,13 +22,18 @@ document.getElementById("time").innerHTML = hour+":"+Minutes+":"+seconds;
 setTimeout("ref()",1000);
 
 }
-function log()
+function songs()
 {
 
-location.href="zaloguj.php";
+location.href="songs.php";
 
 }
+function general()
+{
 
+location.href="index.html"
+
+}
 
 </script>
 
@@ -39,9 +44,8 @@ location.href="zaloguj.php";
         <div id="menu">
 
         <div id="time" ></div>
-        <div class="option" onclick="log()" >logowanie</div>
-        <div class="option" >strona główna</div>
-
+        <div class="option" onclick="general()">strona główna</div>
+        <div class="option" onclik="songs()">Piosenki</div>
         <div id="clearboth"></div>
         </div>
 
