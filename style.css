@@ -56,8 +56,9 @@ clear: both;
 .song
 {
 margin-left: 30px;
+margin-top: 30px;
 width: 300px;
-background-color: black;
+background-color: rgb(99, 90, 90);
 
 
 }
