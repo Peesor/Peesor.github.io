@@ -17,6 +17,10 @@ function ref()
 var hour = today.getHours();
 var Minutes = today.getMinutes();
 var seconds = today.getSeconds();
+
+if(hour<10)hour = "0" + hour
+
+
 document.getElementById("time").innerHTML = hour+":"+Minutes+":"+seconds;
 
 setTimeout("ref()",1000);
