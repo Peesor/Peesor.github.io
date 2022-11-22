@@ -2,8 +2,8 @@
 <html>
 <head> 
 <meta charest="utf-8">
-<meta lang="pl">
-<title>szkoła</title>
+
+<title>test</title>
 </head>
 
 
