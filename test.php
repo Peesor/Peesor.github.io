@@ -14,13 +14,13 @@
 	
 
 
-echo $login,"  ",$haslo;
+    echo $login,"  ",$haslo;
 
 
 
 
 
-
+?>
 
 
 
