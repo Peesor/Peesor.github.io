@@ -4,12 +4,12 @@ function odliczanie()
 		
 		var dzien = dzisiaj.getDate();
 		var miesiac = dzisiaj.getMonth()+1;
-		
+		var tekst = "Witam was w ten piękny dzień";
 		
 		
 		
 		document.getElementById("zegar").innerHTML = 
-		 dzien+"/"+miesiac
+		tekst+"   "+dzien+"/"+miesiac
 		 
-		 setTimeout("odliczanie()",1000000000000);
+		 setTimeout("odliczanie()",10000);
 	}
