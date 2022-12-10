@@ -8,7 +8,7 @@ function odliczanie()
 		
 		
 		
-		document.getElementById("zegar").innerHTML = 
+		document.getElementById("text").innerHTML = 
 		tekst+"   "+dzien+"/"+miesiac
 		 
 		 setTimeout("odliczanie()",10000);
