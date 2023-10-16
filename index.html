@@ -1,68 +1,19 @@
 <!DOCTYPE html>
-
 <html>
-
-<head>
-
-<title>peesor</title>
-
-<meta charset="utf-8" lang="pl">
-
-<link rel="stylesheet" href="peesor.css" type="text/css"/>
-
-<script type="text/javascript">
-
-function ref()
-{
-    var today = new Date();
-
-var hour = today.getHours();
-var Minutes = today.getMinutes();
-var seconds = today.getSeconds();
-
-if(hour<10)hour = "0" + hour
-if(Minutes<10)Minutes = "0" + Minutes
-if(seconds<10)seconds = "0" + seconds
-
-document.getElementById("time").innerHTML = hour+":"+Minutes+":"+seconds;
-
-setTimeout("ref()",1000);
-
-
-}
-
-function index()
-{
-    location.href="index.html"
-}
-
-function log()
-{
-    location.href="log.html"
-}
-
-</script>
-
-</head>
-
-    <body onload="ref()">
-
-        <div id="menu">
-
-            <div class="option" onclick="log()">logowanie</div>
-            <div id="time" class="option"></div>
-            <div id="clearboth"></div>
-
-
-
-
-
-        </div>
-        <div id="upper">
-        
-            TEST
-           
+    <head>
+        <title>Peesor.Github.io</title>
+        <meta charset="utf-8" lang="pl">
+        <link rel="stylesheet" href="style.css" type="text/css">
+        <link rel="icon" href="logo.png">
+    </head>
+    <body>
+        <div class="main">
+            <div class="header">
+                <div class="optionL" id="logo" ><img src="logo.png" id="logo" onclick="location.href='index.html'"></div>
+                <div class="optionL" onclick="location.href='omnie.html'">O MNIĘ</div>
+                <div class="optionL" onclick="location.href='kontakt.html'">KONTAKT</div>
+                <div id="cb"></div>
+            </div>
         </div>
     </body>
-
 </html>
